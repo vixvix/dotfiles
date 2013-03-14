@@ -1,0 +1,11 @@
+[ui]
+ignore = ~/.hgignore
+
+[extensions]
+hgext.extdiff =
+
+[extdiff]
+cmd.opendiff = opendiff-w
+
+[web]
+cacerts = ~/hg-dummy-cert.pem
