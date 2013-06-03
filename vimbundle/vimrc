@@ -231,7 +231,7 @@
             return getline(v:foldstart).' '
         endfunction " }
 
-        colorscheme solarized
+        colorscheme default
     endif 
 " }
 
@@ -247,6 +247,11 @@
     "
     " original repos on github
     Bundle 'Lokaltog/vim-powerline'
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'scrooloose/syntastic'
+    Bundle 'kien/ctrlp.vim'
+    Bundle 'fholgado/minibufexpl.vim'
+    Bundle 'mattn/zencoding-vim'
 "    Bundle 'tpope/vim-fugitive'
 "    Bundle 'Lokaltog/vim-easymotion'
 "    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -254,6 +259,7 @@
 "
     " vim-scripts repos
     Bundle 'EnhCommentify.vim'
+    Bundle 'closetag.vim'
 "    Bundle 'L9'
 "    Bundle 'FuzzyFinder'
 "
