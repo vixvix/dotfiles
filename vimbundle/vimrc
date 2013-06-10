@@ -248,16 +248,17 @@
     "
     " original repos on github
     Bundle 'Lokaltog/vim-powerline'
+"    Bundle 'Lokaltog/vim-easymotion'
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
     Bundle 'kien/ctrlp.vim'
     Bundle 'fholgado/minibufexpl.vim'
     Bundle 'mattn/zencoding-vim'
     Bundle 'elzr/vim-json'
+    Bundle "tpope/vim-surround"
 "    Bundle 'tpope/vim-fugitive'
-"    Bundle 'Lokaltog/vim-easymotion'
-"    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "    Bundle 'tpope/vim-rails.git'
+"    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "
     " vim-scripts repos
     Bundle 'EnhCommentify.vim'
