@@ -187,7 +187,8 @@
             "              ||
             "              |+-- use simple dialogs rather than pop-ups
             "              +  use GUI tabs, not console style tabs
-            set lines=55 " perfect size for me
+            set lines=79
+            set columns=134
             set mousehide " hide the mouse cursor when typing
         " }
 
@@ -239,6 +240,10 @@
 " Plugin Settings {
     set rtp+=~/.vim/bundle/vundle/
     call vundle#rc()
+    "
+    " for vim-pad
+    let g:pad_dir = '~/dev/tmpnotes/'
+    let g:pad_open_in_split = 0
 
     " let Vundle manage Vundle
     " required! 
@@ -255,9 +260,9 @@
     Bundle 'fholgado/minibufexpl.vim'
     Bundle 'mattn/zencoding-vim'
     Bundle 'elzr/vim-json'
-    Bundle "tpope/vim-surround"
+    Bundle 'tpope/vim-surround'
 "    Bundle 'tpope/vim-fugitive'
-"    Bundle 'tpope/vim-rails.git'
+    Bundle 'fmoralesc/vim-pad'
 "    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "
     " vim-scripts repos
