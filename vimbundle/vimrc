@@ -264,7 +264,9 @@
 "    Bundle 'tpope/vim-fugitive'
     Bundle 'fmoralesc/vim-pad'
 "    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-"
+    Bundle 'plasticboy/vim-markdown'
+    Bundle 'maksimr/vim-jsbeautify'
+
     " vim-scripts repos
     Bundle 'EnhCommentify.vim'
     Bundle 'closetag.vim'
