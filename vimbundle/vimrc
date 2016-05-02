@@ -238,50 +238,55 @@
 " }
 
 " Plugin Settings {
-    set rtp+=~/.vim/bundle/vundle/
-    call vundle#rc()
-    "
-    " for vim-pad
-    let g:pad_dir = '~/dev/tmpnotes/'
-    let g:pad_open_in_split = 0
-
+    set rtp+=~/.vim/bundle/Vundle.vim
+    call vundle#begin()
     " let Vundle manage Vundle
     " required! 
-    Bundle 'gmarik/vundle'
+    Plugin 'VundleVim/vundle.vim'
 
-    " My Bundles here:
+    " for vim-pad
+    "let g:pad_dir = '~/dev/tmpnotes/'
+    "let g:pad_open_in_split = 0
+
+    " My Plugin here:
     "
     " original repos on github
-    Bundle 'Lokaltog/vim-powerline'
-"    Bundle 'Lokaltog/vim-easymotion'
-    Bundle 'scrooloose/nerdtree'
-    Bundle 'scrooloose/syntastic'
-    Bundle 'kien/ctrlp.vim'
-    Bundle 'fholgado/minibufexpl.vim'
-    Bundle 'mattn/zencoding-vim'
-    Bundle 'elzr/vim-json'
-    Bundle 'tpope/vim-surround'
-"    Bundle 'tpope/vim-fugitive'
-    Bundle 'fmoralesc/vim-pad'
-"    Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-    Bundle 'plasticboy/vim-markdown'
-    Bundle 'maksimr/vim-jsbeautify'
+    Plugin 'Lokaltog/vim-powerline'
+"    Plugin 'Lokaltog/vim-easymotion'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'scrooloose/syntastic'
+    Plugin 'kien/ctrlp.vim'
+    Plugin 'fholgado/minibufexpl.vim'
+    Plugin 'mattn/zencoding-vim'
+    Plugin 'elzr/vim-json'
+    Plugin 'tpope/vim-surround'
+"    Plugin 'tpope/vim-fugitive'
+"    Plugin 'fmoralesc/vim-pad'
+"    Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+    Plugin 'plasticboy/vim-markdown'
+    Plugin 'maksimr/vim-jsbeautify'
 
     " vim-scripts repos
-    Bundle 'EnhCommentify.vim'
-    Bundle 'closetag.vim'
-"    Bundle 'L9'
-"    Bundle 'FuzzyFinder'
+    Plugin 'EnhCommentify.vim'
+    Plugin 'closetag.vim'
+"    Plugin 'L9'
+"    Plugin 'FuzzyFinder'
 "
     " non github repos
-"    Bundle 'git://git.wincent.com/command-t.git'
+"    Plugin 'git://git.wincent.com/command-t.git'
 
+    " All of your Plugins must be added before the following line
+    call vundle#end()            " required
+    filetype plugin indent on    " required
+    " To ignore plugin indent changes, instead use:
+    "filetype plugin on
+    "
     " Brief help
-    " :BundleList          - list configured bundles
-    " :BundleInstall(!)    - install(update) bundles
-    " :BundleSearch(!) foo - search(or refresh cache first) for foo
-    " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+    " :PluginList       - lists configured plugins
+    " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+    " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+    " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
     "
     " see :h vundle for more details or wiki for FAQ
-    " NOTE: comments after Bundle command are not allowed..
+    " Put your non-Plugin stuff after this line
 " }
