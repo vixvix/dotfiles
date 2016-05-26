@@ -182,7 +182,7 @@
             colorscheme summerfruit256 " my color scheme (only works in GUI)
             set background=light
             set columns=180 " perfect size for me
-            set guifont=Consolas:h10 " My favorite font
+            set guifont=Consolas:h13 " My favorite font
             "set guioptions=ce 
             "              ||
             "              |+-- use simple dialogs rather than pop-ups
@@ -257,7 +257,7 @@
     Plugin 'scrooloose/syntastic'
     Plugin 'kien/ctrlp.vim'
     Plugin 'fholgado/minibufexpl.vim'
-    Plugin 'mattn/zencoding-vim'
+    Plugin 'mattn/emmet-vim'
     Plugin 'elzr/vim-json'
     Plugin 'tpope/vim-surround'
 "    Plugin 'tpope/vim-fugitive'
